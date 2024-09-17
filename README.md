@@ -23,6 +23,7 @@ This project implements the AWS Data Analytic Platform (DAP) for the City of Van
 ### 1. Data Ingestion
 - Data was ingested from CSV files stored in Amazon S3 into the AWS ecosystem.
 - Files were stored in a structured manner within the `PropertyTax` folder, with subfolders named `2023` and `2024`.
+- <img width="447" alt="Screenshot 2024-09-17 at 4 46 51 PM" src="https://github.com/user-attachments/assets/5d2041a8-6b3c-4358-ad17-3c9e9ca260e5">
 
 ### 2. Data Cleansing and Structuring
 - AWS Glue was used for data cleaning: removing duplicates, handling missing values, and correcting data types.
