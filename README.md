@@ -1,3 +1,65 @@
+# Project 1 UCW Scholarly Activity Data Analysis Project
+
+## Project Overview
+This project aims to analyze faculty scholarly activities at UCW using various AWS cloud technologies. It involves several stages of data analysis, from exploratory and diagnostic phases to data wrangling and ensuring data security compliance. The ultimate goal is to provide insights into trends in faculty activities and their impact on academic output while adhering to data security measures.
+
+---
+
+## 1. Exploratory Data Analysis
+**Project Title**: Trends in Faculty Scholarly Activities  
+- **Objective**: Analyze trends and participation rates in different categories of scholarly activities as defined by UCW.
+- **Dataset**: Data on faculty scholarly activities collected from AWS S3.
+- **Methodology**: AWS Athena is utilized to query the dataset for trends, and AWS QuickSight is used for generating visual analytics and dashboards.
+- **Tools & Technologies**: 
+  - AWS Athena
+  - AWS S3
+  - Amazon QuickSight
+- **Deliverables**: 
+  - Visual reports
+  - Dashboards highlighting trends in faculty scholarly activities.
+
+---
+
+## 2. Diagnostic Analysis
+**Project Title**: Impact Analysis of Scholarly Activities on Academic Output  
+- **Objective**: Assess the impact of various scholarly activities on academic output and faculty engagement.
+- **Dataset**: Records of scholarly activities and their corresponding academic outputs.
+- **Methodology**: Conducting regression analysis using AWS SageMaker to evaluate the relationship between scholarly activities and academic output.
+- **Tools & Technologies**:
+  - AWS SageMaker
+  - AWS Athena
+- **Deliverables**: 
+  - A report detailing the impact of scholarly activities on academic output and faculty engagement.
+
+---
+
+## 3. Data Wrangling and Integration
+**Project Title**: Data Preparation and Integration for Scholarly Activity Analysis  
+- **Objective**: Clean, transform, and integrate data from various sources to prepare a unified dataset for further analysis.
+- **Dataset**: Raw data from AWS S3, which includes faculty publications, grants, and presentations.
+- **Methodology**: Data cleaning and transformation processes are executed using AWS Glue, and integration with other academic data sources is automated with AWS Lambda.
+- **Tools & Technologies**:
+  - AWS Glue
+  - AWS Lambda
+  - AWS S3
+- **Deliverables**: 
+  - A cleaned and integrated dataset ready for analysis.
+
+---
+
+## 4. Data Security and Compliance
+**Project Title**: Ensuring Data Security and Compliance in Scholarly Activity Analysis  
+- **Objective**: Implement security measures and ensure that the analysis complies with UCW's research ethics policies.
+- **Dataset**: Sensitive data involved in faculty scholarly activities.
+- **Methodology**: Encryption and access control measures are applied in AWS S3, along with compliance checks to ensure secure handling of the data.
+- **Tools & Technologies**:
+  - AWS S3
+  - AWS KMS (Key Management Service)
+- **Deliverables**:
+  - Secure storage solutions for scholarly activity data.
+  - Compliance documentation outlining security measures.
+
+
 # Project 2 # AWS-Portfolio
 # AWS Data Analytic Platform for The City of Vancouver
 
