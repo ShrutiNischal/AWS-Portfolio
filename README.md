@@ -58,7 +58,8 @@ This project aims to analyze faculty scholarly activities at UCW using various A
 - **Deliverables**:
   - Secure storage solutions for scholarly activity data.
   - Compliance documentation outlining security measures.
-
+    
+--
 
 # Project 2 # AWS-Portfolio
 # AWS Data Analytic Platform for The City of Vancouver
