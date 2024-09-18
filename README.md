@@ -17,6 +17,8 @@ This project aims to analyze faculty scholarly activities at UCW using various A
 - **Deliverables**: 
   - Visual reports
   - Dashboards highlighting trends in faculty scholarly activities.
+  - <img width="584" alt="Screenshot 2024-09-17 at 9 19 53 PM" src="https://github.com/user-attachments/assets/83723103-60f1-4b3c-878e-44f5f5321da6">
+<img width="588" alt="Screenshot 2024-09-17 at 9 20 01 PM" src="https://github.com/user-attachments/assets/ceb806de-2c2b-4c90-935b-40797fedb4b8">
 
 ---
 
@@ -30,6 +32,7 @@ This project aims to analyze faculty scholarly activities at UCW using various A
   - AWS Athena
 - **Deliverables**: 
   - A report detailing the impact of scholarly activities on academic output and faculty engagement.
+  - <img width="599" alt="Screenshot 2024-09-17 at 9 20 13 PM" src="https://github.com/user-attachments/assets/54dab0f7-5329-4448-980d-196a7cb5564f">
 
 ---
 
@@ -44,6 +47,7 @@ This project aims to analyze faculty scholarly activities at UCW using various A
   - AWS S3
 - **Deliverables**: 
   - A cleaned and integrated dataset ready for analysis.
+  - <img width="632" alt="Screenshot 2024-09-17 at 9 20 27 PM" src="https://github.com/user-attachments/assets/ebe2347b-9821-4748-a81e-3878db7d40d6">
 
 ---
 
@@ -58,8 +62,10 @@ This project aims to analyze faculty scholarly activities at UCW using various A
 - **Deliverables**:
   - Secure storage solutions for scholarly activity data.
   - Compliance documentation outlining security measures.
+  - <img width="626" alt="Screenshot 2024-09-17 at 9 20 38 PM" src="https://github.com/user-attachments/assets/fe4d6952-9305-442d-a8e4-c8b05e4078ff">
+
     
---
+---
 
 # Project 2 # AWS-Portfolio
 # AWS Data Analytic Platform for The City of Vancouver
