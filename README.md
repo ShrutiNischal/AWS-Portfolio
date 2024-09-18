@@ -1,4 +1,4 @@
-Project 2 # AWS-Portfolio
+# Project 2 # AWS-Portfolio
 # AWS Data Analytic Platform for The City of Vancouver
 
 ## Abstract
