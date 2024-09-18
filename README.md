@@ -1,4 +1,70 @@
-# AWS-Portfolio
+UCW Scholarly Activities Analysis
+Project Overview
+This repository contains several data analysis projects focused on faculty scholarly activities at UCW. The projects aim to explore trends, assess impact, and ensure data security in scholarly activities through various AWS-based tools and technologies.
+
+Projects
+1. Exploratory Data Analysis
+Title: Trends in Faculty Scholarly Activities
+Objective: Analyze trends and participation rates in various categories of scholarly activities (e.g., publications, presentations, grants).
+Dataset: Data on faculty scholarly activities collected from AWS S3.
+Methodology:
+AWS Athena is used to query and filter data for exploratory purposes.
+AWS QuickSight is utilized for visualizing trends.
+Tools & Technologies:
+AWS Athena
+AWS S3
+AWS QuickSight
+Deliverables: Visual reports and interactive dashboards showcasing the trends.
+2. Diagnostic Analysis
+Title: Impact Analysis of Scholarly Activities on Academic Output
+Objective: Assess how various scholarly activities contribute to academic output and faculty engagement.
+Dataset: Scholarly activity records and corresponding academic outputs.
+Methodology: Regression analysis using AWS SageMaker to evaluate relationships between activities and academic output.
+Tools & Technologies:
+AWS SageMaker
+AWS Athena
+Deliverables: A report detailing the correlation between scholarly activities and academic outcomes.
+3. Data Wrangling and Integration
+Title: Data Preparation and Integration for Scholarly Activity Analysis
+Objective: Clean, transform, and integrate multiple datasets to create a unified and comprehensive dataset for analysis.
+Dataset: Raw data from AWS S3, including faculty publications, grants, and presentation records.
+Methodology: AWS Glue is used for data cleaning and transformation, while AWS Lambda facilitates data integration.
+Tools & Technologies:
+AWS Glue
+AWS Lambda
+AWS S3
+Deliverables: A clean and integrated dataset, ready for analysis.
+4. Data Security and Compliance
+Title: Ensuring Data Security and Compliance in Scholarly Activity Analysis
+Objective: Implement encryption, access control, and ensure compliance with UCW's research ethics policies.
+Dataset: Sensitive data related to faculty scholarly activities.
+Methodology: Use AWS KMS (Key Management Service) to encrypt data and enforce access control measures on AWS S3. Regular compliance checks are conducted.
+Tools & Technologies:
+AWS S3
+AWS KMS (Key Management Service)
+Deliverables: Secure data storage and compliance documentation.
+How to Run the Projects
+To replicate or further develop these analyses, follow these steps:
+
+Set up AWS services:
+
+Ensure you have access to AWS services such as S3, Athena, QuickSight, Glue, Lambda, and SageMaker.
+Configure your AWS credentials using the AWS CLI.
+Accessing Data:
+
+The data is stored in AWS S3. Use AWS Athena to query the data or AWS Glue to clean and transform the raw datasets.
+Running Visualizations:
+
+Use AWS QuickSight to visualize the results. If you have access to the AWS dashboard, you can import the visualizations into your workspace.
+Conducting Analysis:
+
+For regression and other analytical techniques, use AWS SageMaker or integrate the dataset into your own machine learning environment.
+Ensuring Data Security:
+
+Implement security best practices by enabling AWS KMS for encryption and setting up proper access control policies for AWS S3.
+Contributing
+Feel free to open issues or submit pull requests if you'd like to contribute to this project. Ensure your code is well-documented and follows the guidelines for secure and compliant data handling.
+Project 2 # AWS-Portfolio
 # AWS Data Analytic Platform for The City of Vancouver
 
 ## Abstract
