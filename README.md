@@ -23,14 +23,19 @@ This project implements the AWS Data Analytic Platform (DAP) for the City of Van
 ### 1. Data Ingestion
 - Data was ingested from CSV files stored in Amazon S3 into the AWS ecosystem.
 - Files were stored in a structured manner within the `PropertyTax` folder, with subfolders named `2023` and `2024`.
-- <img width="447" alt="Screenshot 2024-09-17 at 4 46 51 PM" src="https://github.com/user-attachments/assets/5d2041a8-6b3c-4358-ad17-3c9e9ca260e5">
+- <img width="625" alt="Screenshot 2024-09-17 at 5 02 07 PM" src="https://github.com/user-attachments/assets/053adabd-5e72-4d64-8c87-4387ea1c2311">
 
 ### 2. Data Cleansing and Structuring
 - AWS Glue was used for data cleaning: removing duplicates, handling missing values, and correcting data types.
 - Derived metrics such as `PropertyValueChange` and `TaxRateChange` were created for further analysis.
+- <img width="508" alt="Screenshot 2024-09-17 at 5 02 51 PM" src="https://github.com/user-attachments/assets/115ef107-903f-4085-953e-c26e5db1b47c">
+<img width="465" alt="Screenshot 2024-09-17 at 5 02 59 PM" src="https://github.com/user-attachments/assets/d966803b-e2b4-45f7-a843-2bb3ed3da27f">
 
 ### 3. Data Pipeline Implementation
 - ETL pipeline implemented using AWS Glue's Visual ETL. The pipeline runs monthly to process and analyze updated data.
+- <img width="588" alt="Screenshot 2024-09-17 at 5 02 39 PM" src="https://github.com/user-attachments/assets/9ab07a0e-7635-4ebc-aa05-b4c30b703fa5">
+<img width="422" alt="Screenshot 2024-09-17 at 5 03 14 PM" src="https://github.com/user-attachments/assets/2b68e04a-4e2a-4a87-9697-fd63333084a1">
+<img width="562" alt="Screenshot 2024-09-17 at 5 03 32 PM" src="https://github.com/user-attachments/assets/f1cb4624-f676-49f2-8bf0-0f04c1622df5">
 
 ### 4. Data Analysis
 - Amazon Athena was used to run SQL queries on the dataset.
@@ -38,16 +43,21 @@ This project implements the AWS Data Analytic Platform (DAP) for the City of Van
 
 ### 5. Data Visualization
 - Bar charts and line graphs were used to visualize the correlation between land values and tax rates across different streets.
+- <img width="431" alt="Screenshot 2024-09-17 at 5 03 40 PM" src="https://github.com/user-attachments/assets/a46f1d64-2612-4fa4-b97d-f9fa3a0dcf04">
 
 ### 6. Data Publishing
 - The final dataset and visualizations were published using Amazon EC2 instances, providing web-based access to stakeholders.
+- <img width="594" alt="Screenshot 2024-09-17 at 5 03 49 PM" src="https://github.com/user-attachments/assets/c175e6c8-2a72-4a9b-a54b-572f9c704f5d">
 
 ## Key Visuals
 - Average Land Value and Tax Rate by Street (Bar Chart with Line Graph)
   - Displays average land value on the y-axis, streets on the x-axis, and the correlation with tax rates.
+    
 
 ## Estimated Cost
 The estimated cost for AWS services used in this project (S3, Glue, Redshift, EC2) was calculated using the AWS pricing calculator and is provided in the attached cost analysis document.
+<img width="529" alt="Screenshot 2024-09-17 at 5 03 57 PM" src="https://github.com/user-attachments/assets/2c125c3e-c4d8-4c94-af4a-f5ebddc7b50a">
+<img width="552" alt="Screenshot 2024-09-17 at 5 04 03 PM" src="https://github.com/user-attachments/assets/4bc26d08-0150-4496-a6f8-6c6adc90d952">
 
 ---
 
